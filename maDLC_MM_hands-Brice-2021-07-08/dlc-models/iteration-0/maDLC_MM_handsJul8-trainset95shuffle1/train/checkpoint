@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/maDLC_MM_hands/maDLC_MM_hands-Brice-2021-07-08/dlc-models/iteration-0/maDLC_MM_handsJul8-trainset95shuffle1/train/snapshot-10000"
+all_model_checkpoint_paths: "/content/maDLC_MM_hands/maDLC_MM_hands-Brice-2021-07-08/dlc-models/iteration-0/maDLC_MM_handsJul8-trainset95shuffle1/train/snapshot-10000"

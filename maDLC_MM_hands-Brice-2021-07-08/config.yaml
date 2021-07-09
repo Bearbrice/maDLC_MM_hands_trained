@@ -1,0 +1,93 @@
+    # Project definitions (do not edit)
+Task: maDLC_MM_hands
+scorer: Brice
+date: Jul8
+multianimalproject: true
+
+    # Project path (change when moving around)
+project_path: /content/maDLC_MM_hands/maDLC_MM_hands-Brice-2021-07-08
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands-Brice-2021-07-08\videos\VPers1.mp4:
+    crop: 0, 852, 0, 480
+individuals:
+- leftHand
+- rightHand
+uniquebodyparts: []
+multianimalbodyparts:
+- thumbStart
+- thumbEnd
+- indexStart
+- indexEnd
+- middleStart
+- middleEnd
+- ringStart
+- ringEnd
+- littleStart
+- littleEnd
+skeleton:
+- - thumbStart
+  - thumbEnd
+- - ringStart
+  - ringEnd
+- - middleStart
+  - ringStart
+- - ringStart
+  - littleStart
+- - middleStart
+  - middleEnd
+- - littleStart
+  - littleEnd
+- - indexStart
+  - indexEnd
+- - indexStart
+  - middleStart
+- - thumbStart
+  - indexStart
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 6
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+identity: false
