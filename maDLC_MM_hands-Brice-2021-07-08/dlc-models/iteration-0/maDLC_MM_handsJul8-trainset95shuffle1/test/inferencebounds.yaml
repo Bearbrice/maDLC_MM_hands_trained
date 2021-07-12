@@ -1,0 +1,45 @@
+'0_1':
+  intra_max: '14.0'
+  intra_min: '4.0'
+  inter_max: '45.0'
+  inter_min: '13.0'
+'6_7':
+  intra_max: '18.0'
+  intra_min: '4.0'
+  inter_max: '72.0'
+  inter_min: '26.0'
+'4_6':
+  intra_max: '7.0'
+  intra_min: '2.0'
+  inter_max: '66.0'
+  inter_min: '27.0'
+'6_8':
+  intra_max: '11.0'
+  intra_min: '2.0'
+  inter_max: '73.0'
+  inter_min: '32.0'
+'4_5':
+  intra_max: '21.0'
+  intra_min: '5.0'
+  inter_max: '64.0'
+  inter_min: '22.0'
+'8_9':
+  intra_max: '15.0'
+  intra_min: '4.0'
+  inter_max: '79.0'
+  inter_min: '35.0'
+'2_3':
+  intra_max: '20.0'
+  intra_min: '5.0'
+  inter_max: '54.0'
+  inter_min: '16.0'
+'2_4':
+  intra_max: '12.0'
+  intra_min: '2.0'
+  inter_max: '59.0'
+  inter_min: '22.0'
+'0_2':
+  intra_max: '15.0'
+  intra_min: '2.0'
+  inter_max: '52.0'
+  inter_min: '19.0'

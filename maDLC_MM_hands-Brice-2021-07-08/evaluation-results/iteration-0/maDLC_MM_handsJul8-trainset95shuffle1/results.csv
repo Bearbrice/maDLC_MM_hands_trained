@@ -1,0 +1,2 @@
+,train_iter,train_frac,shuffle,rmse_train,hits_train,misses_train,falsepos_train,ndetects_train,pck_train,rpck_train,rmse_test,hits_test,misses_test,falsepos_test,ndetects_test,pck_test,rpck_test
+0,10000.0,95.0,1.0,2.76526926330744,20.0,0.0,0.0,2.0,0.9689473684210533,0.8640744588207198,4.233952899203785,18.333333333333332,1.6666666666666667,0.0,1.8333333333333333,0.7166666666666667,0.6836925493543151

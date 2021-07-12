@@ -5,7 +5,7 @@ date: Jul8
 multianimalproject: true
 
     # Project path (change when moving around)
-project_path: /content/maDLC_MM_hands/maDLC_MM_hands-Brice-2021-07-08
+project_path: /content/maDLC_MM_hands_trained/maDLC_MM_hands-Brice-2021-07-08
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
